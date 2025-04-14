@@ -44,23 +44,23 @@ global.libreria = 'Baileys'
 global.baileys = '@whiskeysockets/baileys'
 global.vs = '2.0.7'
 global.languaje = 'Español'
-global.nameqr = '𝘽𝙤𝙩 𝙡𝙪𝙭'
-global.namebot = '𝘽𝙤𝙩 𝙡𝙪𝙭'
-global.sessions = '𝘽𝙤𝙩 𝙡𝙪𝙭Session'
+global.nameqr = 'BOT LUX'
+global.namebot = 'BOT LUX'
+global.sessions = 'BOT LUXSession'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = '𝘽𝙤𝙩 𝙡𝙪𝙭'
-global.botname = '𝘽𝙤𝙩 𝙡𝙪𝙭'
+global.packname = 'BOT LUX'
+global.botname = 'BOT LUX'
 global.wm = '𝘞𝘩𝘢𝘵𝘴𝘈𝘱𝘱 𝘉𝘰𝘵'
-global.author = '𝘽𝙤𝙩 𝙡𝙪𝙭'
+global.author = 'BOT LUX'
 global.dev = '𝙉𝙤𝙩 𝙈𝙮 𝙋𝙧𝙤𝙡𝙚𝙢𝙖'
-global.textbot = '𝘽𝙤𝙩 𝙡𝙪𝙭'
+global.textbot = 'BOT LUX'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.catalogo = fs.readFileSync('./src/img/catalogo.jpg')
-global.𝘽𝙤𝙩 𝙡𝙪𝙭url = fs.readFileSync('./src/img/𝘽𝙤𝙩 𝙡𝙪𝙭.jpg')
+global.BOT LUXurl = fs.readFileSync('./src/img/BOT LUX.jpg')
 global.avatar = fs.readFileSync('./src/img/avatar_contact.png')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*

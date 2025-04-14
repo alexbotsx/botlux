@@ -491,15 +491,15 @@ export async function deleteUpdate(message) {
 
 global.dfail = (type, m, conn) => {
     const msg = {
-        rowner: `🚩 Hola, este comando solo puede ser utilizado por *𝘽𝙤𝙩 𝙡𝙪𝙭*.`,
-        owner: `👤 Usuario, Este Comando Solo Puede Ser Utilizado Por *𝘽𝙤𝙩 𝙡𝙪𝙭*.`,
-        mods: `🤚🏻 Hola, este comando solo puede ser utilizado por *𝘽𝙤𝙩 𝙡𝙪𝙭*.`,
+        rowner: `🚩 Hola, este comando solo puede ser utilizado por *BOT LUX*.`,
+        owner: `👤 Usuario, Este Comando Solo Puede Ser Utilizado Por *BOT LUX*.`,
+        mods: `🤚🏻 Hola, este comando solo puede ser utilizado por *BOT LUX*.`,
         premium: `😂 Okey pero, este comando solo puede ser utilizado por Usuarios *Premium*.`,
         group: `💫 Hola, este comando solo puede ser utilizado en *Grupos*.`,
         private: `⚕️ Hola, este comando solo puede ser utilizado en mi Chat *Privado*.`,
         admin: `⭐ No, este comando solo puede ser utilizado por los *Administradores* del Grupo.`,
         botAdmin: `🚩 Antes, El bot debe ser *Administrador* para ejecutar este Comando.`,
-        unreg: `🤚🏻 Espera, Para Usar Este Comando Debes Estar *Registrado.*\n\nUtiliza: */reg nombre.edad*\n\n> Ejemplo: /reg 𝘽𝙤𝙩 𝙡𝙪𝙭.17`,
+        unreg: `🤚🏻 Espera, Para Usar Este Comando Debes Estar *Registrado.*\n\nUtiliza: */reg nombre.edad*\n\n> Ejemplo: /reg BOT LUX.17`,
         restrict: `⚠️ Esta Característica Está *Deshabilitada.*`
     }[type];
     if (msg) return conn.reply(m.chat, msg, m).then(_ => m.react('✖️'))

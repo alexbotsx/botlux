@@ -37,14 +37,14 @@ handler.all = async function (m) {
     global.creador = 'Wa.me/51920726588'
     global.ofcbot = `${conn.user.jid.split('@')[0]}`
     global.asistencia = 'https://wa.me/51920726588'
-    global.namechannel = '𝘽𝙤𝙩 𝙡𝙪𝙭'
+    global.namechannel = 'BOT LUX'
 
     //Reacciones De Comandos.!
     global.rwait = '🕒'
     global.done = '✅'
     global.error = '✖️'
 
-    //Emojis determinado de 𝘽𝙤𝙩 𝙡𝙪𝙭
+    //Emojis determinado de BOT LUX
     global.emoji = '🍁'
     global.emoji2 = '⭐'
     global.emoji3 = '✨️'

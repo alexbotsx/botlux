@@ -1,5 +1,5 @@
 {
-    "name": "𝘽𝙤𝙩 𝙡𝙪𝙭",
+    "name": "BOT LUX",
     "version": "2.0.7",
     "description": "Simple WhatsApp Bot Multi Device",
     "main": "index.js",
@@ -23,7 +23,7 @@
         "name": "Kill"
     },
     "collaborators": {
-        "col1": "𝘽𝙤𝙩 𝙡𝙪𝙭",
+        "col1": "BOT LUX",
         "col2": "@Alexn"
     },
     "repository": {

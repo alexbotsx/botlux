@@ -8,7 +8,7 @@ import cfonts from 'cfonts'
 import { createInterface } from 'readline'
 import yargs from 'yargs'
 import chalk from 'chalk'
-console.log('\n✰ Iniciando 𝘽𝙤𝙩 𝙡𝙪𝙭 ✰')
+console.log('\n✰ Iniciando BOT LUX ✰')
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const require = createRequire(__dirname)
 const { name, description, collaborators, author, version } = require(join(__dirname, './package.json'))
@@ -34,7 +34,7 @@ cfonts.say(description, {
     gradient: ['blue', 'magenta']
 })
 const message = `${subtitleStyle('Desarrollado por »')} ${responseStyle(author.name)}
-${subtitleStyle('Código basado por »')} ${responseStyle('𝘽𝙤𝙩 𝙡𝙪𝙭')}
+${subtitleStyle('Código basado por »')} ${responseStyle('BOT LUX')}
 ${subtitleStyle('Colaboradores activos »')} ${responseStyle(activeCollaborators)}
 ${subtitleStyle('Versión »')} ${responseStyle(version)}`
 console.log(boxen(message, { padding: 1, margin: 1, borderStyle: 'double', borderColor: 'blue', float: 'center', }))
@@ -82,4 +82,4 @@ process.on('warning', (warning) => {
         console.warn(warning.stack)
     }
 })
-start('𝘽𝙤𝙩 𝙡𝙪𝙭.js')
+start('BOT LUX.js')

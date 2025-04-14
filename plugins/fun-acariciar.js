@@ -1,4 +1,4 @@
-//Codígo de 𝘽𝙤𝙩 𝙡𝙪𝙭
+//Codígo de BOT LUX
 
 import fs from 'fs';
 import path from 'path';
