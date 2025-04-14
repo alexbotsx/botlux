@@ -34,9 +34,9 @@ handler.all = async function (m) {
     let pushname = m.pushName || 'Sin nombre'
 
     //creador y otros
-    global.creador = 'Wa.me/5683073328'
+    global.creador = 'Wa.me/51920726588'
     global.ofcbot = `${conn.user.jid.split('@')[0]}`
-    global.asistencia = 'https://wa.me/51982004738'
+    global.asistencia = 'https://wa.me/51920726588'
     global.namechannel = '𝘽𝙤𝙩 𝙡𝙪𝙭'
 
     //Reacciones De Comandos.!
@@ -58,10 +58,9 @@ handler.all = async function (m) {
     global.waitttt = '🚀 Cargando...'
 
     //Enlaces
-    var canal = 'https://whatsapp.com/channel/0029VaZ90V9EKyZGyqHKt61M'
+    var canal = 'https://chat.whatsapp.com/Galu1Qd1en1Jkritdvbvip'
     var tiktok = 'https://www.tiktok.com/savagehax'
     var ig = 'https://www.instagram.com/alexnsnk7'
-    let correo = 'tummperra@gmail.com'
 
     global.redes = [canal, tiktok, ig, correo].getRandom()
 
@@ -86,9 +85,9 @@ handler.all = async function (m) {
     global.readMore = more.repeat(850)
 
     //Fakes
-    global.fkontak = { key: { participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `51982004738-1614953337@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `${pushname}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': null, thumbnail: null, sendEphemeral: true } } }
+    global.fkontak = { key: { participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `51920726588-1614953337@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `${pushname}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': null, thumbnail: null, sendEphemeral: true } } }
 
-    // global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "51982004738-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: icons, sellerJid: '0@s.whatsapp.net'}}}
+    // global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "51920726588-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: icons, sellerJid: '0@s.whatsapp.net'}}}
 
     global.fake = {
         contextInfo: {
@@ -97,9 +96,9 @@ handler.all = async function (m) {
     }, { quoted: m }
 
     global.icono = [
-        'https://ibb.co/Tq9tynk',
-        'https://ibb.co/Tq9tynk',
-        'https://ibb.co/Tq9tynk'
+        'https://ibb.co/Tq2VHHWh',
+        'https://ibb.co/Tq2VHHWh',
+        'https://ibb.co/Tq2VHHWh'
     ].getRandom()
 
 }
